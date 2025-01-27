@@ -29,6 +29,22 @@ body {
     overflow-y: auto;
     scroll-behavior: smooth;
     font-family: 'Jost', sans-serif;
+    color: #faf9f6;
+    background-color: #0d0d0d;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.05;
+    z-index: -1;
 }
 
 /* Images Setup */
@@ -81,4 +97,20 @@ summary,
 [type='submit'],
 [type='checkbox'] {
     cursor: pointer;
+}
+
+.body-app {
+    max-width: 1300px;
+    /* border: 1px solid salmon; */
+    margin: auto;
+    padding: 2rem;
+    padding-block-start: 0;
+    font-size: 16px;
+    position: relative;
+}
+
+main {
+    margin-block: 2rem;
+    position: relative;
+    padding: 1rem;
 }
