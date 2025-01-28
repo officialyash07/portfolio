@@ -1,0 +1,70 @@
+.hero {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: clamp(3rem, calc(3rem + 2vw), 5rem);
+    margin-block-start: 3rem;
+}
+
+.post {
+    position: relative;
+    max-width: 650px;
+    height: 4rem;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    margin: 0 auto;
+    border-inline: 1px solid #b8b8b83b;
+}
+
+.postText {
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: clamp(1rem, 8vw, 3rem);
+    letter-spacing: 2px;
+    color: #b8b8b8;
+    text-shadow: #b8b8b8;
+    min-width: 100%;
+    white-space: nowrap;
+    animation: animation 16s infinite linear;
+}
+
+.postBlur {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+}
+
+.postBlur p {
+    filter: blur(0.06em);
+}
+
+.postClear {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+}
+
+@keyframes animation {
+    from {
+        translate: 90%;
+    }
+    to {
+        translate: -70%;
+    }
+}
+
+.anime {
+    margin: auto;
+    margin-block-start: 3rem;
+    max-width: 850px;
+}
+
+video {
+    width: 100%;
+}
