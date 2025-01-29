@@ -1,6 +1,8 @@
 import classes from '../styles/Hero.module.css';
 
-import video from '../assets/loop.mp4';
+// import video from '../assets/loop.mp4';
+
+import hero from '../assets/hero.png';
 
 const Hero = () => {
     return (
@@ -15,9 +17,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className={classes.anime}>
-                <video loop autoPlay muted>
-                    <source src={video} type="video/mp4" />
-                </video>
+                <img src={hero} alt="" />
             </div>
         </section>
     );

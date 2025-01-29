@@ -45,6 +45,7 @@ body::before {
     background-position: center;
     opacity: 0.05;
     z-index: -1;
+    min-width: max-content;
 }
 
 /* Images Setup */
@@ -101,17 +102,33 @@ summary,
 
 .body-app {
     max-width: 1300px;
-    /* border: 1px solid salmon; */
+    border: 1px solid salmon;
     margin: auto;
     padding: 2rem;
     padding-block-start: 0;
     font-size: 16px;
     position: relative;
-    height: 100vh;
+    height: 100%;
+}
+
+.body-app::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10rem;
+    right: 0;
+    bottom: 0;
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.05;
+    z-index: -1;
+    width: 150vw;
 }
 
 main {
     margin-block: 2rem;
     position: relative;
     padding: 1rem;
+    border: 1px solid white;
 }

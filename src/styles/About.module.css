@@ -1,0 +1,33 @@
+.about {
+    box-shadow: 0px 15px 10px -15px #353535;
+    margin-block-end: 2rem;
+    padding-block: 2rem;
+    padding-block-end: 3rem;
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    grid-column-gap: 4rem;
+}
+
+.avatar img {
+    max-width: 250px;
+    margin: auto;
+}
+
+.name {
+    letter-spacing: 1.5px;
+    margin-block: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #b8b8b8;
+    font-size: 1.2rem;
+}
+
+.description {
+    letter-spacing: 1px;
+    margin-block-end: 2rem;
+}
+
+.resumeBtn {
+    width: 140px;
+    font-weight: 500;
+}

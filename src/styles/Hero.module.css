@@ -1,5 +1,8 @@
 .hero {
     text-align: center;
+    box-shadow: 0px 15px 10px -15px #353535;
+    margin-block-end: 2rem;
+    padding-block: 2rem;
 }
 
 h1 {
@@ -63,8 +66,4 @@ h1 {
     margin: auto;
     margin-block-start: 3rem;
     max-width: 850px;
-}
-
-video {
-    width: 100%;
 }
