@@ -1,0 +1,13 @@
+.projectContainer {
+    border: 1px solid green;
+    padding-block: 2rem;
+}
+
+h2 {
+    letter-spacing: 1.5px;
+    margin-block-end: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #b8b8b8a2;
+    font-size: 1.2rem;
+}
