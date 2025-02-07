@@ -1,43 +1,40 @@
-import classes from "./header.module.css";
+import classes from './header.module.css';
 
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
-import logoImg from "@/assets/logo.png";
-import profileImg from "@/assets/profile.jpg";
+import logoImg from '@/assets/logo.png';
+import profileImg from '@/assets/profile.jpeg';
+
+import NavLink from './nav-link';
 
 const Header = () => {
     return (
         <header className={classes.header}>
             <Link href="/">
-                <Image src={logoImg} alt="Yash Logo Image" width={150} />
+                <Image src={logoImg} alt="Yash Logo Image" width={100} />
             </Link>
             <nav className={classes.nav}>
                 <ul>
                     <li>
-                        <Link href="/">home</Link>
+                        <NavLink href="/">home</NavLink>
                     </li>
                     <li>
-                        <Link href="/about">about</Link>
+                        <NavLink href="/about">about</NavLink>
                     </li>
                     <li>
-                        <Link href="/services">services</Link>
+                        <NavLink href="/services">services</NavLink>
                     </li>
                     <li>
-                        <Link href="/projects">projects</Link>
+                        <NavLink href="/projects">projects</NavLink>
                     </li>
                     <li>
-                        <Link href="/contact">contact</Link>
+                        <NavLink href="/contact">contact</NavLink>
                     </li>
                 </ul>
             </nav>
             <div className={classes.profile}>
-                <Image
-                    src={profileImg}
-                    alt="Yash Profile Photo"
-                    width={100}
-                    height={100}
-                />
+                <Image src={profileImg} alt="Yash Profile Photo" width={80} height={80} />
             </div>
         </header>
     );

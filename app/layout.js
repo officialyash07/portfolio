@@ -1,15 +1,18 @@
-import { Jost } from "next/font/google";
-import "./globals.css";
-import Header from "@/components/Header/header";
+import { Jost } from 'next/font/google';
+
+import './globals.css';
+
+import Header from '@/components/Header/header';
+import Footer from '@/components/Footer/footer';
 
 const jost = Jost({
-    subsets: ["latin"],
-    display: "swap",
+    subsets: ['latin'],
+    display: 'swap',
 });
 
 export const metadata = {
-    title: "Portfolio | Yash Pathik",
-    description: "Web Developer Portfolio of Yash Pathik",
+    title: 'Portfolio | Yash Pathik',
+    description: 'Web Developer Portfolio of Yash Pathik',
 };
 
 export default function RootLayout({ children }) {
@@ -18,6 +21,7 @@ export default function RootLayout({ children }) {
             <body>
                 <Header />
                 {children}
+                <Footer />
             </body>
         </html>
     );
