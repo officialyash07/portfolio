@@ -1,0 +1,8 @@
+.button {
+    color: #fff7ec;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 500;
+    outline: none;
+    padding: 0.5rem 2rem;
+}

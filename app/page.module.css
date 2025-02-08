@@ -1,8 +1,4 @@
 .main {
-    max-width: 1200px;
-    margin: auto;
-    margin-block-end: 1rem;
-    padding: 2rem 1rem;
     display: grid;
     grid-template-columns: 1fr 0.8fr;
     grid-column-gap: 36px;
@@ -55,8 +51,11 @@
 }
 
 .hero {
-    /* border: 1px solid red; */
     position: relative;
+}
+
+.heroImg img {
+    filter: drop-shadow(10px 7px 10px orange);
 }
 
 .blob {

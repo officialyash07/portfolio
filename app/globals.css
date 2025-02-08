@@ -92,3 +92,10 @@ summary,
 [type='checkbox'] {
     cursor: pointer;
 }
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    margin-block-end: 1rem;
+    padding: 2rem 1rem;
+}

@@ -19,7 +19,9 @@ const Home = () => {
                 <div className={classes.blob}>
                     <Image src={blob} alt="A background blob svg for the hero" width={600} priority />
                 </div>
-                <Image src={heroImage} alt="A picture of hero" width={400} height={650} />
+                <div className={classes.heroImg}>
+                    <Image src={heroImage} alt="A picture of hero" width={400} height={650} />
+                </div>
             </div>
         </main>
     );
