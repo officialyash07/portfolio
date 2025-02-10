@@ -1,0 +1,9 @@
+.icons a {
+    text-decoration: none;
+    color: #fff7ecb9;
+}
+
+.icons a:hover {
+    color: aqua;
+    text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+.form label {
+    display: block;
+    text-transform: capitalize;
+    margin-block-end: 10px;
+}
+
+.form input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: #fff7ec;
+    background-color: #ffffff0d;
+}
+
+.form textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: #fff7ec;
+    background-color: #ffffff0d;
+}
+
+.button {
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #0d0d0d;
+    background-color: #fff7ec;
+}

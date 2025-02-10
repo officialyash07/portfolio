@@ -1,0 +1,15 @@
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    color: #fff7ecb9;
+    letter-spacing: 1px;
+}
+
+.icon .image {
+    border: 1px solid #fff7ec;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
