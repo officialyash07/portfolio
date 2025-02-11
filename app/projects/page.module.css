@@ -1,0 +1,17 @@
+.main h1 {
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #fff7ec98;
+    margin-block-end: 5rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.secondCol {
+    margin-block-start: 6rem;
+}

@@ -1,0 +1,66 @@
+.project {
+    width: fit-content;
+    position: relative;
+    margin-block-end: 2rem;
+}
+
+.project img {
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+
+.project img:hover {
+    opacity: 0.7;
+}
+
+.title {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+    color: #40ff00;
+    letter-spacing: 1px;
+    padding-inline-start: 10px;
+    font-size: 1.2rem;
+}
+
+.description {
+    letter-spacing: 1px;
+    padding-inline-start: 10px;
+    color: #fff7eccc;
+}
+
+.viewBtn {
+    position: absolute;
+    z-index: 99;
+    bottom: 6rem;
+    left: 1rem;
+}
+
+.viewBtn a {
+    text-decoration: none;
+    color: #fff7ec;
+    border: 1px solid #353535;
+    padding: 7px 17px;
+    border-radius: 7px;
+    background-color: #2e2d2dbd;
+    backdrop-filter: blur(5px);
+    transition: 0.2s ease-in;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.viewBtn a:hover {
+    background-color: #353535;
+    color: #fff7ec;
+    border-color: #353535;
+    backdrop-filter: blur(0);
+}
+
+.viewBtn a img {
+    transition: 0.2s ease-in;
+}
+
+.viewBtn a:hover img {
+    transform: rotate(-20deg);
+}
