@@ -19,18 +19,18 @@ const Project = ({ src, title, description, codeHref, linkHref }) => {
             className={classes.project}
         >
             <div className={classes.projectImg}>
-                <Link href={linkHref}>
+                <Link href={linkHref} target="_blank">
                     <Image src={src} alt="project image" width={400} />
                 </Link>
+                <div className={classes.viewBtn}>
+                    <Link href={codeHref} target="_blank">
+                        View Code
+                        <Image src={arrowIcon} alt="arrow icon" width={20} />
+                    </Link>
+                </div>
             </div>
             <p className={classes.title}>{title}</p>
             <p className={classes.description}>{description}</p>
-            <div className={classes.viewBtn}>
-                <Link href={codeHref}>
-                    View Code
-                    <Image src={arrowIcon} alt="arrow icon" width={20} />
-                </Link>
-            </div>
         </motion.div>
     );
 };

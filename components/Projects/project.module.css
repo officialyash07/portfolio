@@ -1,15 +1,18 @@
 .project {
     width: fit-content;
-    position: relative;
     margin-block-end: 2rem;
 }
 
-.project img {
+.projectImg {
+    position: relative;
+}
+
+.projectImg img {
     border-radius: 10px;
     transition: 0.2s ease-in;
 }
 
-.project img:hover {
+.projectImg img:hover {
     opacity: 0.7;
 }
 
@@ -26,12 +29,13 @@
     letter-spacing: 1px;
     padding-inline-start: 10px;
     color: #fff7eccc;
+    max-width: 400px;
 }
 
 .viewBtn {
     position: absolute;
     z-index: 99;
-    bottom: 6rem;
+    bottom: 1rem;
     left: 1rem;
 }
 
