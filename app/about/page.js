@@ -11,6 +11,8 @@ import ResumeDownload from "@/components/Resume/resume";
 
 import { motion } from "motion/react";
 
+import Head from "next/head";
+
 const AboutPage = () => {
     return (
         <main className={classes.main}>
