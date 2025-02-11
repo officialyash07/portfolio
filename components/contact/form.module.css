@@ -32,4 +32,14 @@
     border: none;
     color: #0d0d0d;
     background-color: #fff7ec;
+    margin-block-end: 1rem;
+}
+
+.success {
+    color: #28a745;
+    font-size: 1.2rem;
+}
+
+.failed {
+    color: #dc3546;
 }
