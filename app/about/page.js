@@ -8,7 +8,7 @@ import Link from "next/link";
 import heroImage from "@/assets/character-1.png";
 import blob from "@/assets/blob-1.svg";
 
-import ResumeDownload from "@/components/Resume/resume";
+
 
 import { motion } from "motion/react";
 
@@ -78,8 +78,7 @@ const AboutPage = () => {
                         <span>+91 8076586547</span>
                     </div>
                 </div>
-              //  <ResumeDownload />
-                        <Link href="/YashPathik_Resume.pdf" download>Resume</Link>
+                        <Link href="/YashPathik_Resume.pdf" target="_blank" download>Resume</Link>
             </motion.div>
         </main>
     );
