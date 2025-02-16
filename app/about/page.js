@@ -78,7 +78,7 @@ const AboutPage = () => {
                         <span>+91 8076586547</span>
                     </div>
                 </div>
-                        <p>
+                        <p className={classes.resume}>
                         <Link href="/YashPathik_Resume.pdf" target="_blank" download>Resume</Link>
                         </p>
             </motion.div>
