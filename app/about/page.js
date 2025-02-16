@@ -3,6 +3,7 @@
 import classes from "./page.module.css";
 
 import Image from "next/image";
+import Link from "next/link";
 
 import heroImage from "@/assets/character-1.png";
 import blob from "@/assets/blob-1.svg";
@@ -77,7 +78,8 @@ const AboutPage = () => {
                         <span>+91 8076586547</span>
                     </div>
                 </div>
-                <ResumeDownload />
+              //  <ResumeDownload />
+                        <Link href="/YashPathik_Resume.pdf" download>Resume</Link>
             </motion.div>
         </main>
     );
